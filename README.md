@@ -55,7 +55,6 @@ A Java-based application for managing student course enrollments with MySQL data
 
 ## Project Structure
 
-'''
 src/
 ├── model/
 │   ├── Admin.java
@@ -78,7 +77,6 @@ src/
 │   └── MainUI.java
 └── main/
     └── Main.java
-'''
 
 ## Sample Usage
 1. Login as admin (username: admin1, password: admin123)
