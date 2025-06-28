@@ -56,14 +56,15 @@ A Java-based application for managing student course enrollments with MySQL data
 ## Project Structure
 
 src/
-├── model/      # Data classes
-├── dao/        # Database operations
-├── service/    # Business logic
-├── ui/         # User interface
-└── main/       # Entry point
+ ├── model/      # Data classes
+ ├── dao/        # Database operations
+ ├── service/    # Business logic
+ ├── ui/         # User interface
+ └── main/       # Entry point
 
 
 ## Sample Usage
 1. Login as admin (username: admin1, password: admin123)
 2. Add new courses
 3. Login as student to enroll
+
