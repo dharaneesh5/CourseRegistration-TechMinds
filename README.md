@@ -56,11 +56,31 @@ A Java-based application for managing student course enrollments with MySQL data
 ## Project Structure
 
 src/
- ├── model/      # Data classes
- ├── dao/        # Database operations
- ├── service/    # Business logic
- ├── ui/         # User interface
- └── main/       # Entry point
+├── model/          # Data classes (POJOs)
+│   ├── Admin.java
+│   ├── Course.java
+│   ├── Enrollment.java
+│   ├── Instructor.java
+│   └── Student.java
+│
+├── dao/            # Database operations
+│   ├── AdminDAO.java
+│   ├── CourseDAO.java
+│   ├── DBConnection.java
+│   ├── EnrollmentDAO.java
+│   ├── InstructorDAO.java
+│   └── StudentDAO.java
+│
+├── service/        # Business logic
+│   ├── AdminService.java
+│   ├── InstructorService.java
+│   └── StudentService.java
+│
+├── ui/             # User interface
+│   └── MainUI.java
+│
+└── main/           # Entry point
+    └── Main.java
 
 
 ## Sample Usage
